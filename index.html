@@ -7,6 +7,7 @@
 </head>
 
 <body>
+    <div style = "display: flex">
     <form action = "https://gu-web-dev-2024.github.io/fake-form-submission/submission.html" method = "GET" >
         <p>
             <label for = "recipeName">Recipe Name:</label>
@@ -16,9 +17,27 @@
             <label for = "recipeDescription">Recipe Description:</label>
             <input textarea = "text" name = "recipeName " id = "recipeName"> 
         </p>
-
+        <p>
+            <label for = "prepTime">Preparation Time: </label>
+            <input type = "number" name = "prepTime" id = "prepTime">
+        </p>
+        <p>
+            <label for = "ingredientList">List of ingredients: </label>
+            <input type = "text" name = "ingredientList" id = "ingredientList">
+        </p>
+        <p>
+            <label for = "instructions">Cooking Instructions: </label>
+            <input type = "text" name = "instructions" id = "instructions">
+        </p>
+        <p>
+           <label for = "recipePhoto">Upload Recipe Photo: </label>
+           <input type = "file" name = "recipePhoto" id = "recipePhoto">
+        </p>
+        <p>
+            <input type = "button" value = "Submit">
+        </p>
     </form>
-
+    </div>
 
     
 </body>
